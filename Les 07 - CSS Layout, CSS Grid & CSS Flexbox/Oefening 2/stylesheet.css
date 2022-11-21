@@ -1,0 +1,36 @@
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        'header header'
+        'aside main '
+        'footer footer';
+    grid-template-columns:
+
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.header {
+    background-color: cornflowerblue;
+    grid-area: header;
+}
+
+.aside {
+    background-color: chartreuse;
+    grid-area: aside;
+}
+
+.main {
+    background-color: dimgray;
+    grid-area: main;
+}
+
+.footer {
+    background-color: coral;
+    grid-area: footer;
+}
